@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-09",
+  "protocols": [
+    {
+      "id": "fall-risk",
+      "tag": "#1F5C6E",
+      "icon": "balance",
+      "category": "Falls Risk",
+      "phase": null,
+      "exerciseGrid": {
+        "columns": [
+          "Regression",
+          "Starting Point",
+          "Progression",
+          "Progression 2"
+        ],
+        "startColumn": 1,
+        "rows": [
+          {
+            "id": "glute-strengthening",
+            "label": "Glute Strengthening",
+            "cells": {
+              "Regression": "glute-set",
+              "Starting Point": "bridge",
+              "Progression": "seat-taps",
+              "Progression 2": "squats-air"
+            }
+          },
+          {
+            "id": "single-leg-stance",
+            "label": "Single leg Stance",
+            "cells": {
+              "Starting Point": "stance-tandem",
+              "Regression": "stance-narrow",
+              "Progression": "stance-single",
+              "Progression 2": "hip-stand-abd"
+            }
+          },
+          {
+            "id": "balance",
+            "label": "balance",
+            "cells": {
+              "Regression": "stance-tandem",
+              "Starting Point": "stance-tandem-taks",
+              "Progression": "walks-heel-toe",
+              "Progression 2": "stance-single-reaching"
+            }
+          },
+          {
+            "id": "sensory-integration",
+            "label": "sensory integration",
+            "cells": {
+              "Starting Point": "stance-eyes-closed",
+              "Progression": "stance-narrow-eyes-closed",
+              "Progression 2": "stance-single-eyes-closed",
+              "Regression": "sitting-unsupported-eyes-closed"
+            }
+          }
+        ]
+      },
+      "en": {
+        "name": "Fall Prevention",
+        "population": "Those who are at high risk for falls, or have already experienced falls",
+        "duration": "20-25",
+        "frequency": "5 days/week",
+        "blurb": "begin gaining leg strength and balance through staged and graded exercises that takes your current capability into account."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 6000
+        }
+      ]
+    }
+  ]
+}
