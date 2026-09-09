@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-09",
+  "exercises": [
+    {
+      "id": "glute-set",
+      "en": {
+        "name": "Glute Set",
+        "detail": "lay on back with legs strait out. push down into the surface with each leg one at a time. Hold for 3 seconds then release. you should feel the glutes contracting.",
+        "dose": "3 sets of 10 each leg"
+      }
+    },
+    {
+      "id": "bridge",
+      "en": {
+        "name": "Bridges",
+        "detail": "laying on back, bring feet up flat on the surface by bending the knees. Push down through your feet and raise your hips up toward the cieling to form the bridge. Hold for 3 seconds, and then lower slowly back to the table. You should feel a squeeze in the glutes at the top of the bridge.",
+        "dose": "3 sets of 10"
+      }
+    },
+    {
+      "id": "seat-taps",
+      "en": {
+        "name": "Seat Taps",
+        "detail": "Stand facing away from the end of an about upper thigh high surface (ie... arm rest of couch) slowly lower your seat back until you touch the object working on hinging at the hips to \"sit back.\" as soon as your seat touches to the surfaces, come back up without shifting weight into the surface. This should feel like a mini \"squat\" but not full depth.",
+        "dose": "3 sets of 10"
+      }
+    },
+    {
+      "id": "squats-air",
+      "en": {
+        "name": "Air Squats",
+        "detail": "Perform a squat to full available depth trying to stay slow and controlled",
+        "dose": "3 sets of 10"
+      }
+    },
+    {
+      "id": "stance-tandem",
+      "en": {
+        "name": "Tandem Stance Balance",
+        "detail": "Stand with one foot in front of the other and try and balance for 30 seconds with as little hand use as possible.",
+        "dose": "3 sets of 30 seconds each leg"
+      }
+    },
+    {
+      "id": "stance-narrow",
+      "en": {
+        "name": "Narrow Stance Balance",
+        "detail": "Stand with feet together and try and balance for 30 seconds at a time with as little hand use as possible for balance.",
+        "dose": "3 sets of 30 seconds"
+      }
+    },
+    {
+      "id": "stance-single",
+      "en": {
+        "name": "Single Leg Stance Balance",
+        "detail": "Stand on one leg for 30 seconds with as little hand support as possible.",
+        "dose": "3 sets of 30 seconds on each leg."
+      }
+    },
+    {
+      "id": "hip-stand-abd",
+      "en": {
+        "name": "Standing Hip ABDuction",
+        "detail": "stand on one leg while holding nuetral posture. Move non-stance leg out to the side and back slowly and under control. You should feel contraction on the outside of the hip.",
+        "dose": "3 sets of 10 on each leg"
+      }
+    },
+    {
+      "id": "walks-heel-toe",
+      "en": {
+        "name": "Heel to Toe Walks",
+        "detail": "Walk one foot in front of the other, touching the heel of each step to the toe of the previous step. walk alongside a countertop using hands as needed for balance but as little as possible.",
+        "dose": "3 sets of 30 seconds"
+      }
+    },
+    {
+      "id": "stance-tandem-taks",
+      "en": {
+        "name": "Task Oriented Tandem Stance",
+        "detail": "While performing daily duties (dishes, laundry, etc...) stand with one foot in front of the other, practicing keeping balance while reaching for objects related to the activity. Also can be done playing board games, card games, etc...",
+        "dose": "as much as tolerated"
+      }
+    },
+    {
+      "id": "stance-eyes-closed",
+      "en": {
+        "name": "Eyes closed stance",
+        "detail": "standing normally at a countertop or other solid surface, try to stand with eyes closed without losing balance using hands for support only as needed.",
+        "dose": "3 sets of 30 seconds"
+      }
+    },
+    {
+      "id": "stance-narrow-eyes-closed",
+      "en": {
+        "name": "Narrow Stance Eyes Closed",
+        "detail": "Stand at counter or other firm surface with a narrow stance. Try to hold balance with eyes closed for 30 seconds at a time, using hands for support only as necessary.",
+        "dose": "3 sets of 30 seconds"
+      }
+    },
+    {
+      "id": "stance-single-eyes-closed",
+      "en": {
+        "name": "Single Leg Stance Eyes Closed",
+        "detail": "Stand at counter or other firm surface with a single leg stance. Try to hold balance with eyes closed for 30 seconds at a time, using hands for support only as necessary.",
+        "dose": "3 sets of 30 seconds each leg"
+      }
+    },
+    {
+      "id": "sitting-unsupported-eyes-closed",
+      "en": {
+        "name": "Unsupported Sitting with Eyes closed",
+        "detail": "Sit at the edge of a chair with feet flat on floor and sitting on a fluffy pillow. Close your eyes and try to maintain upright posture for 30 seconds at a time only using arms for support as necessary.",
+        "dose": "3 sets of 30 seconds"
+      }
+    },
+    {
+      "id": "stance-single-reaching",
+      "en": {
+        "name": "Task Oriented Single Leg Stance",
+        "detail": "While performing daily duties (dishes, laundry, etc...) stand on one leg practicing keeping balance while reaching for objects related to the activity. Also can be done playing board games, card games, etc. do for 30 seconds at a time for the duration of the activity as tolerated.",
+        "dose": "As tolerated"
+      }
+    }
+  ]
+}
