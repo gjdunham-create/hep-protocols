@@ -218,6 +218,14 @@
         {
           "type": "weight",
           "target": null
+        },
+        {
+          "type": "mood",
+          "target": null
+        },
+        {
+          "type": "sleep",
+          "target": null
         }
       ]
     }
