@@ -142,6 +142,84 @@
           "target": 8000
         }
       ]
+    },
+    {
+      "id": "test-protocol",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "pre-treatment",
+      "exerciseGrid": {
+        "columns": [
+          "Regression",
+          "Starting Point",
+          "Progression",
+          "Progression 2"
+        ],
+        "startColumn": 1,
+        "rows": [
+          {
+            "id": "test",
+            "label": "test",
+            "cells": {
+              "Regression": "knee-to-chest",
+              "Starting Point": "hep-stt-forefoot-dynamic",
+              "Progression": "pallof-press",
+              "Progression 2": "walks-heel-toe"
+            }
+          },
+          {
+            "id": "test-2",
+            "label": "test",
+            "cells": {
+              "Regression": "pelvic-tilt",
+              "Starting Point": "hep-stt-shoulder-ir-simple",
+              "Progression": "stance-single",
+              "Progression 2": "stance-single-reaching"
+            }
+          },
+          {
+            "id": "test-3",
+            "label": "test",
+            "cells": {
+              "Regression": "hep-str-finger-adductor-simple",
+              "Starting Point": "hep-str-wrist-radial-intermediate",
+              "Progression": "hep-str-lumbar-rotator-dynamic",
+              "Progression 2": "mini-squat"
+            }
+          }
+        ]
+      },
+      "en": {
+        "name": "test",
+        "population": "test",
+        "duration": "20",
+        "frequency": "all",
+        "blurb": "test"
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 7000
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "smoking",
+          "target": 10
+        },
+        {
+          "type": "drinking",
+          "target": 4
+        },
+        {
+          "type": "weight",
+          "target": null
+        }
+      ]
     }
   ]
 }
