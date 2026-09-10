@@ -73,6 +73,68 @@
           "target": 6000
         }
       ]
+    },
+    {
+      "id": "patellofemoral-pain-lat-track",
+      "tag": "#1F5C6E",
+      "icon": "bone",
+      "category": "orthopedic",
+      "phase": "non-op",
+      "exerciseGrid": {
+        "columns": [
+          "Regression",
+          "Starting Point",
+          "Progression",
+          "Progression 2"
+        ],
+        "startColumn": 1,
+        "rows": [
+          {
+            "id": "quad-strengthening",
+            "label": "Quad strengthening",
+            "cells": {
+              "Regression": "terminal-knee-extension",
+              "Starting Point": "vmo-quad-set",
+              "Progression": "hep-str-knee-extensor-dynamic",
+              "Progression 2": "single-leg-squat-to-chair"
+            }
+          },
+          {
+            "id": "foot-ankle-stability",
+            "label": "Foot/Ankle stability",
+            "cells": {
+              "Starting Point": "hep-mob-ankle-plantarflex-intermediate",
+              "Progression": "hep-str-forefoot-dynamic"
+            }
+          },
+          {
+            "id": "lateral-hip-strength",
+            "label": "Lateral Hip strength",
+            "cells": {
+              "Starting Point": "side-lying-hip-abduction",
+              "Progression": "hep-str-hip-abductor-intermediate",
+              "Progression 2": "hep-str-hip-abductor-dynamic"
+            }
+          },
+          {
+            "id": "functional-training",
+            "label": "Functional Training",
+            "cells": {
+              "Starting Point": "squats-air",
+              "Regression": "mini-squat",
+              "Progression": "bulgarian-split-squat",
+              "Progression 2": "single-leg-squat-to-chair"
+            }
+          }
+        ]
+      },
+      "en": {
+        "name": "patellofemoral pain (lateral tracking)",
+        "population": "those with PTFP symptoms with confirmed lateral tracking with contributions from VMO weakness, Hip weakness, and ankle stability",
+        "duration": "20",
+        "frequency": "5 days/week",
+        "blurb": "N/a"
+      }
     }
   ]
 }
