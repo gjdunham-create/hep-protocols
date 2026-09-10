@@ -134,7 +134,14 @@
         "duration": "20",
         "frequency": "5 days/week",
         "blurb": "N/a"
-      }
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 8000
+        }
+      ]
     }
   ]
 }
