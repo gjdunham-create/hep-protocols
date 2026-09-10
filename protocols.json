@@ -162,7 +162,7 @@
             "id": "test",
             "label": "test",
             "cells": {
-              "Regression": "knee-to-chest",
+              "Regression": "hep-stt-knee-extensor-simple",
               "Starting Point": "pallof-press",
               "Progression": "pallof-press",
               "Progression 2": "walks-heel-toe"
