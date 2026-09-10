@@ -163,7 +163,7 @@
             "label": "test",
             "cells": {
               "Regression": "knee-to-chest",
-              "Starting Point": "hep-stt-forefoot-dynamic",
+              "Starting Point": "pallof-press",
               "Progression": "pallof-press",
               "Progression 2": "walks-heel-toe"
             }
