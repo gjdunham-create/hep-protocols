@@ -218,65 +218,6 @@
           "target": null
         }
       ]
-    },
-    {
-      "id": "jfjfj",
-      "tag": "#1F5C6E",
-      "icon": "document",
-      "category": "other",
-      "phase": null,
-      "exerciseGrid": {
-        "rows": [
-          {
-            "id": "row-1",
-            "label": "Single-Leg Balance on Foam",
-            "chain": [
-              "pallof-press",
-              "single-leg-balance-on-foam"
-            ],
-            "startIndex": 1
-          },
-          {
-            "id": "row-2",
-            "label": "Band Shoulder Extension",
-            "chain": [
-              "hep-str-shoulder-extensor-intermediate",
-              "pallof-press"
-            ],
-            "startIndex": 0
-          },
-          {
-            "id": "row-3",
-            "label": "Pallof Press",
-            "chain": [
-              "pallof-press"
-            ],
-            "startIndex": 0
-          }
-        ]
-      },
-      "en": {
-        "name": "jfjfjf",
-        "population": "jfjfjf",
-        "duration": "jfjf",
-        "frequency": "jfjfj",
-        "blurb": "jfjfj"
-      },
-      "riskFactors": [
-        {
-          "type": "activity",
-          "metric": "steps",
-          "target": 7000
-        },
-        {
-          "type": "sleep",
-          "target": null
-        },
-        {
-          "type": "bloodPressure",
-          "target": null
-        }
-      ]
     }
   ]
 }
