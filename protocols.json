@@ -70,6 +70,58 @@
           "target": 6000
         }
       ]
+    },
+    {
+      "id": "asdf",
+      "tag": "#1F5C6E",
+      "icon": "document",
+      "category": "other",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "row-1",
+            "label": "Band Finger Abduction",
+            "chain": [
+              "hep-str-finger-abductor-intermediate",
+              "squats-air",
+              "hep-str-finger-abductor-intermediate"
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "row-2",
+            "label": "Pelvic Tilt",
+            "chain": [
+              "hep-mob-thoracic-extension-simple",
+              "pelvic-tilt"
+            ],
+            "startIndex": 1
+          }
+        ]
+      },
+      "en": {
+        "name": "fdfs",
+        "population": "sfa",
+        "duration": "sdf",
+        "frequency": "sdfa",
+        "blurb": "safdsf"
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 2000
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "weight",
+          "target": null
+        }
+      ]
     }
   ]
 }
