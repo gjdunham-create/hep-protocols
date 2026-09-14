@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-14",
   "protocols": [
     {
       "id": "fall-risk",
@@ -12,7 +12,7 @@
         "rows": [
           {
             "id": "glute-strengthening",
-            "label": "Glute Strengthening",
+            "label": "Bridges",
             "chain": [
               "glute-set",
               "bridge",
@@ -23,7 +23,7 @@
           },
           {
             "id": "single-leg-stance",
-            "label": "Single leg Stance",
+            "label": "Tandem Stance Balance",
             "chain": [
               "stance-narrow",
               "stance-tandem",
@@ -34,7 +34,7 @@
           },
           {
             "id": "balance",
-            "label": "balance",
+            "label": "Task Oriented Tandem Stance",
             "chain": [
               "stance-tandem",
               "stance-tandem-taks",
@@ -45,7 +45,7 @@
           },
           {
             "id": "sensory-integration",
-            "label": "sensory integration",
+            "label": "Eyes closed stance",
             "chain": [
               "sitting-unsupported-eyes-closed",
               "stance-eyes-closed",
@@ -58,10 +58,10 @@
       },
       "en": {
         "name": "Fall Prevention",
-        "population": "Those who are at high risk for falls, or have already experienced falls",
+        "population": "made for those who are at high risk for falling, or have already experienced falls.",
         "duration": "20-25",
         "frequency": "5 days/week",
-        "blurb": "begin gaining leg strength and balance through staged and graded exercises that takes your current capability into account."
+        "blurb": "Made to build up Leg strength, core control, sensory integration in ballance, and general health promotion to limit the negative effects of falling."
       },
       "riskFactors": [
         {
