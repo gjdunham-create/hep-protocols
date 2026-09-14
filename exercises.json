@@ -65,7 +65,10 @@
         "name": "Single Leg Stance Balance",
         "detail": "Stand on one leg for 30 seconds with as little hand support as possible.",
         "dose": "3 sets of 30 seconds on each leg."
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=HTVVv4ESgms",
+      "videoStartSeconds": 14,
+      "videoEndSeconds": 21
     },
     {
       "id": "hip-stand-abd",
@@ -81,7 +84,10 @@
         "name": "Heel to Toe Walks",
         "detail": "Walk one foot in front of the other, touching the heel of each step to the toe of the previous step. walk alongside a countertop using hands as needed for balance but as little as possible.",
         "dose": "3 sets of 30 seconds"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=PhUuP6QqQHA",
+      "videoStartSeconds": 9,
+      "videoEndSeconds": 16
     },
     {
       "id": "stance-tandem-taks",
@@ -89,7 +95,10 @@
         "name": "Task Oriented Tandem Stance",
         "detail": "While performing daily duties (dishes, laundry, etc...) stand with one foot in front of the other, practicing keeping balance while reaching for objects related to the activity. Also can be done playing board games, card games, etc...",
         "dose": "as much as tolerated"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=ra7tzlPxnsQ",
+      "videoStartSeconds": 5,
+      "videoEndSeconds": 16
     },
     {
       "id": "stance-eyes-closed",
@@ -105,7 +114,10 @@
         "name": "Narrow Stance Eyes Closed",
         "detail": "Stand at counter or other firm surface with a narrow stance. Try to hold balance with eyes closed for 30 seconds at a time, using hands for support only as necessary.",
         "dose": "3 sets of 30 seconds"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=0v_aqOzBiFQ",
+      "videoStartSeconds": 14,
+      "videoEndSeconds": 24
     },
     {
       "id": "stance-single-eyes-closed",
@@ -113,7 +125,10 @@
         "name": "Single Leg Stance Eyes Closed",
         "detail": "Stand at counter or other firm surface with a single leg stance. Try to hold balance with eyes closed for 30 seconds at a time, using hands for support only as necessary.",
         "dose": "3 sets of 30 seconds each leg"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=zApChixB2MQ",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 5
     },
     {
       "id": "sitting-unsupported-eyes-closed",
@@ -129,7 +144,10 @@
         "name": "Task Oriented Single Leg Stance",
         "detail": "While performing daily duties (dishes, laundry, etc...) stand on one leg practicing keeping balance while reaching for objects related to the activity. Also can be done playing board games, card games, etc. do for 30 seconds at a time for the duration of the activity as tolerated.",
         "dose": "As tolerated"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=HTVVv4ESgms",
+      "videoStartSeconds": 14,
+      "videoEndSeconds": 21
     },
     {
       "id": "90-90-hip-mobility",
