@@ -70,6 +70,74 @@
           "target": 6000
         }
       ]
+    },
+    {
+      "id": "rh-colon",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "row-1",
+            "label": "Glute Bridge",
+            "chain": [
+              "glute-set",
+              "glute-bridge",
+              "mini-squat"
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "row-2",
+            "label": "Ball Squeeze",
+            "chain": [
+              "hep-str-finger-flexor-simple",
+              "standing-bicep-curl",
+              "resistance-band-row"
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "row-3",
+            "label": "Walking Easy Pace",
+            "chain": [
+              "walk-easy",
+              "walk-easy",
+              "medium-walk",
+              "walk-brisk"
+            ],
+            "startIndex": 1
+          }
+        ]
+      },
+      "en": {
+        "name": "High risk for Colon Cancer",
+        "population": "Those who are tested high risk for colon cancer, and want to track modifiable risk factors, and control variables that can reduce cancer risk, and improve prognosis if diagnosed with cancer.",
+        "duration": "20 min",
+        "frequency": "5 days/week",
+        "blurb": "Build cardiovascular capacity and exercise tolerance to prevent frailty, control modifiable risk factors, and promote general healthy activities."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 8000
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "smoking",
+          "target": null
+        },
+        {
+          "type": "drinking",
+          "target": null
+        }
+      ]
     }
   ]
 }
