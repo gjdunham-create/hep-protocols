@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "updatedAt": "2026-09-14",
   "protocols": [
     {
@@ -14,10 +14,18 @@
             "id": "glute-strengthening",
             "label": "Bridges",
             "chain": [
-              "glute-set",
-              "bridge",
-              "seat-taps",
-              "squats-air"
+              [
+                "glute-set"
+              ],
+              [
+                "bridge"
+              ],
+              [
+                "seat-taps"
+              ],
+              [
+                "squats-air"
+              ]
             ],
             "startIndex": 1
           },
@@ -25,10 +33,18 @@
             "id": "single-leg-stance",
             "label": "Tandem Stance Balance",
             "chain": [
-              "stance-narrow",
-              "stance-tandem",
-              "stance-single",
-              "hip-stand-abd"
+              [
+                "stance-narrow"
+              ],
+              [
+                "stance-tandem"
+              ],
+              [
+                "stance-single"
+              ],
+              [
+                "hip-stand-abd"
+              ]
             ],
             "startIndex": 1
           },
@@ -36,10 +52,18 @@
             "id": "balance",
             "label": "Task Oriented Tandem Stance",
             "chain": [
-              "stance-tandem",
-              "stance-tandem-taks",
-              "walks-heel-toe",
-              "stance-single-reaching"
+              [
+                "stance-tandem"
+              ],
+              [
+                "stance-tandem-taks"
+              ],
+              [
+                "walks-heel-toe"
+              ],
+              [
+                "stance-single-reaching"
+              ]
             ],
             "startIndex": 1
           },
@@ -47,10 +71,18 @@
             "id": "sensory-integration",
             "label": "Eyes closed stance",
             "chain": [
-              "sitting-unsupported-eyes-closed",
-              "stance-eyes-closed",
-              "stance-narrow-eyes-closed",
-              "stance-single-eyes-closed"
+              [
+                "sitting-unsupported-eyes-closed"
+              ],
+              [
+                "stance-eyes-closed"
+              ],
+              [
+                "stance-narrow-eyes-closed"
+              ],
+              [
+                "stance-single-eyes-closed"
+              ]
             ],
             "startIndex": 1
           }
@@ -83,10 +115,18 @@
             "id": "row-1",
             "label": "Glute Bridge",
             "chain": [
-              "glute-set",
-              "glute-bridge",
-              "mini-squat",
-              "squats-air"
+              [
+                "glute-set"
+              ],
+              [
+                "glute-bridge"
+              ],
+              [
+                "mini-squat"
+              ],
+              [
+                "squats-air"
+              ]
             ],
             "startIndex": 1
           },
@@ -94,9 +134,15 @@
             "id": "row-2",
             "label": "Ball Squeeze",
             "chain": [
-              "hep-str-finger-flexor-simple",
-              "standing-bicep-curl",
-              "resistance-band-row"
+              [
+                "hep-str-finger-flexor-simple"
+              ],
+              [
+                "standing-bicep-curl"
+              ],
+              [
+                "resistance-band-row"
+              ]
             ],
             "startIndex": 0
           },
@@ -104,9 +150,15 @@
             "id": "row-3",
             "label": "Walking Easy Pace",
             "chain": [
-              "walk-easy",
-              "medium-walk",
-              "walk-brisk"
+              [
+                "walk-easy"
+              ],
+              [
+                "medium-walk"
+              ],
+              [
+                "walk-brisk"
+              ]
             ],
             "startIndex": 0
           }
