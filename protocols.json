@@ -85,7 +85,8 @@
             "chain": [
               "glute-set",
               "glute-bridge",
-              "mini-squat"
+              "mini-squat",
+              "squats-air"
             ],
             "startIndex": 1
           },
@@ -104,11 +105,10 @@
             "label": "Walking Easy Pace",
             "chain": [
               "walk-easy",
-              "walk-easy",
               "medium-walk",
               "walk-brisk"
             ],
-            "startIndex": 1
+            "startIndex": 0
           }
         ]
       },
