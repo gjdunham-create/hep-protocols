@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-14",
   "exercises": [
     {
       "id": "glute-set",
@@ -6602,6 +6602,45 @@
         "bodyPart": "Knee",
         "difficulty": "Low",
         "movement": null
+      }
+    },
+    {
+      "id": "medium-walk",
+      "en": {
+        "name": "Walking Medium Pace",
+        "detail": "go on a 10 minute walk, walking at a pace that raises the heart rate and breathing slightly, but feels sustainable.",
+        "dose": "10 minutes"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "Cardiovascular",
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "id": "walk-easy",
+      "en": {
+        "name": "Walking Easy Pace",
+        "detail": "Go on a 5 minute walk at a nice pace that does not feel too strenuous.",
+        "dose": "5 minutes"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "Cardiovascular",
+        "difficulty": "Low"
+      }
+    },
+    {
+      "id": "walk-brisk",
+      "en": {
+        "name": "Walking Brisk Paced",
+        "detail": "Take a 10 minute walk at a brisk pace. Fast enough to feel increased heart rate and breath rate, but not so fast as to feel unsteady.",
+        "dose": "10 minutes"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "cardiovascular",
+        "difficulty": "High"
       }
     }
   ]
