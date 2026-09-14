@@ -16,7 +16,10 @@
         "name": "Bridges",
         "detail": "laying on back, bring feet up flat on the surface by bending the knees. Push down through your feet and raise your hips up toward the cieling to form the bridge. Hold for 3 seconds, and then lower slowly back to the table. You should feel a squeeze in the glutes at the top of the bridge.",
         "dose": "3 sets of 10"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=_leI4qFfPVw",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 24
     },
     {
       "id": "seat-taps",
@@ -24,7 +27,10 @@
         "name": "Seat Taps",
         "detail": "Stand facing away from the end of an about upper thigh high surface (ie... arm rest of couch) slowly lower your seat back until you touch the object working on hinging at the hips to \"sit back.\" as soon as your seat touches to the surfaces, come back up without shifting weight into the surface. This should feel like a mini \"squat\" but not full depth.",
         "dose": "3 sets of 10"
-      }
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=jzQyohg8NBY",
+      "videoStartSeconds": 121,
+      "videoEndSeconds": 128
     },
     {
       "id": "squats-air",
