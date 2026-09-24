@@ -190,6 +190,34 @@
           "target": null
         }
       ]
+    },
+    {
+      "id": "test",
+      "tag": "#1F5C6E",
+      "icon": "heart",
+      "category": "morbidities",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "row-1",
+            "label": "Forearm Pronation Unresisted",
+            "chain": [
+              [
+                "hep-str-wrist-pronator-simple"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "test",
+        "population": "test",
+        "duration": "test",
+        "frequency": "test",
+        "blurb": "test"
+      }
     }
   ]
 }
