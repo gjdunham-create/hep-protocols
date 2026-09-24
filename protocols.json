@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-24",
   "protocols": [
     {
       "id": "fall-risk",
@@ -190,6 +190,47 @@
           "target": null
         }
       ]
+    },
+    {
+      "id": "fsfdsf",
+      "tag": "#1F5C6E",
+      "icon": "heart",
+      "category": "morbidities",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "row-1",
+            "label": "Seated Ankle Eversion with Band",
+            "chain": [
+              [
+                "hep-str-ankle-evertor-simple"
+              ],
+              [
+                "hep-stt-hip-extensor-simple"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "row-2",
+            "label": "Pallof Press",
+            "chain": [
+              [
+                "pallof-press"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "sadf",
+        "population": "asdf",
+        "duration": "asdf",
+        "frequency": "asdf",
+        "blurb": "asdf"
+      }
     }
   ]
 }
