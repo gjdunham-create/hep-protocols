@@ -190,37 +190,6 @@
           "target": null
         }
       ]
-    },
-    {
-      "id": "test-protocol",
-      "tag": "#1F5C6E",
-      "icon": "document",
-      "category": "other",
-      "phase": null,
-      "exerciseGrid": {
-        "rows": [
-          {
-            "id": "row-1",
-            "label": "Gravity-Assisted Ulnar Deviation",
-            "chain": [
-              [
-                "hep-str-wrist-ulnar-simple"
-              ],
-              [
-                "hep-str-wrist-pronator-intermediate"
-              ]
-            ],
-            "startIndex": 0
-          }
-        ]
-      },
-      "en": {
-        "name": "Test Protocol (t4)",
-        "population": "Test Population",
-        "duration": "15",
-        "frequency": "most days",
-        "blurb": "test"
-      }
     }
   ]
 }
