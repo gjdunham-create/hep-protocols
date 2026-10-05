@@ -607,6 +607,145 @@
           "target": null
         }
       ]
+    },
+    {
+      "id": "falls-risk",
+      "tag": "#1F5C6E",
+      "icon": "document",
+      "category": "other",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand-hands"
+              ],
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "static-balance",
+            "label": "Tandem Stance Balance",
+            "chain": [
+              [
+                "stance-narrow"
+              ],
+              [
+                "stance-tandem"
+              ],
+              [
+                "stance-single"
+              ],
+              [
+                "stance-single-eyes-closed"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "dynamic-balance",
+            "label": "Side Stepping",
+            "chain": [
+              [
+                "side-stepping"
+              ],
+              [
+                "walks-heel-toe"
+              ],
+              [
+                "backward-walking"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "calves",
+            "label": "Heel Raises with Support",
+            "chain": [
+              [
+                "heel-raises-supported"
+              ],
+              [
+                "heel-raise-single"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "walking",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ]
+            ],
+            "startIndex": 1
+          }
+        ]
+      },
+      "en": {
+        "name": "Falls Risk Management",
+        "population": "Older adults at risk of falling",
+        "duration": "30 min",
+        "frequency": "Strength & balance 3 days/week; walk most days",
+        "blurb": "Otago-style strength and balance training — cuts falls by about a quarter. Always keep a counter within reach."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 6000
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "sleep"
+        },
+        {
+          "type": "mood"
+        }
+      ]
     }
   ]
 }
