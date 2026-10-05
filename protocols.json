@@ -746,6 +746,151 @@
           "type": "mood"
         }
       ]
+    },
+    {
+      "id": "health-promotion",
+      "tag": "#1F5C6E",
+      "icon": "document",
+      "category": "other",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "walk-intervals"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "push",
+            "label": "Counter Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ],
+              [
+                "push-up"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "hips",
+            "label": "Bridges",
+            "chain": [
+              [
+                "bridge"
+              ],
+              [
+                "bridge-march"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "General Health Promotion",
+        "population": "Adults building healthy activity habits",
+        "duration": "30 min",
+        "frequency": "5 days/week; strength 2 days",
+        "blurb": "Meets the U.S. activity guidelines: 150+ min/week of moderate activity plus strength work twice a week."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 8000
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "smoking",
+          "target": null
+        },
+        {
+          "type": "drinking",
+          "target": null
+        },
+        {
+          "type": "sleep"
+        }
+      ]
     }
   ]
 }
