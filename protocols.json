@@ -190,6 +190,144 @@
           "target": null
         }
       ]
+    },
+    {
+      "id": "colon-during",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "during-treatment",
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "aerobic",
+            "label": "Walking Easy Pace",
+            "chain": [
+              [
+                "seated-marching"
+              ],
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "15–20 min"
+                    }
+                  }
+                }
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "core",
+            "label": "Belly Breathing with Core Set",
+            "chain": [
+              [
+                "breathing-core"
+              ],
+              [
+                "heel-slides-core"
+              ],
+              [
+                "toe-taps-supine"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand with Arm Push",
+            "chain": [
+              [
+                "sit-to-stand-hands"
+              ],
+              [
+                "sit-to-stand"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "hips",
+            "label": "Bridges",
+            "chain": [
+              [
+                "bridge"
+              ],
+              [
+                "bridge-march"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "balance",
+            "label": "Tandem Stance Balance",
+            "chain": [
+              [
+                "stance-tandem"
+              ],
+              [
+                "stance-single"
+              ],
+              [
+                "walks-heel-toe"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "push",
+            "label": "Wall Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Colon Cancer — During Treatment",
+        "population": "Adults in chemo or radiation, or recovering from colon surgery",
+        "duration": "15–30 min",
+        "frequency": "Most days, as energy allows",
+        "blurb": "Gentle, ostomy-safe exercise to ease fatigue and keep strength and balance. Follow your surgeon’s lifting limits."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 5000
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "mood"
+        },
+        {
+          "type": "sleep"
+        }
+      ]
     }
   ]
 }
