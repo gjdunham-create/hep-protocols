@@ -1172,6 +1172,123 @@
           "type": "sleep"
         }
       ]
+    },
+    {
+      "id": "lung-risk",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "walk-intervals"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "push",
+            "label": "Counter Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ],
+              [
+                "push-up"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Lung Cancer — Risk Reduction",
+        "population": "Adults with a smoking history or other lung cancer risk",
+        "duration": "30 min",
+        "frequency": "5 days/week; strength 2 days",
+        "blurb": "Quitting smoking matters most. Regular activity adds protection and keeps your lungs and heart fit."
+      },
+      "riskFactors": [
+        {
+          "type": "smoking",
+          "target": null
+        },
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 8000
+        }
+      ]
     }
   ]
 }
