@@ -7041,6 +7041,69 @@
       "videoUrl": "https://www.youtube.com/watch?v=Vai85r5ee7o",
       "videoStartSeconds": 23,
       "videoEndSeconds": 33
+    },
+    {
+      "id": "huff-cough",
+      "en": {
+        "name": "Huff Cough",
+        "detail": "Medium breath in, then huff out with an open mouth like fogging a mirror. 2–3 huffs, then cough.",
+        "dose": "2–3 cycles, as needed"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Chest",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=bFyBtb-SF_g",
+      "videoStartSeconds": 7,
+      "videoEndSeconds": 17
+    },
+    {
+      "id": "wand-flexion",
+      "en": {
+        "name": "Wand Shoulder Raise",
+        "detail": "Lying, hold a cane with both hands. Raise it overhead as far as comfortable, lower slowly.",
+        "dose": "2 sets of 10"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Shoulder",
+        "difficulty": "Low",
+        "movement": "Flexion"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=1gxS3Cv4IgY",
+      "videoStartSeconds": 12,
+      "videoEndSeconds": 22
+    },
+    {
+      "id": "wall-walk",
+      "en": {
+        "name": "Wall Finger Walk",
+        "detail": "Face the wall and walk your fingers up as high as comfortable, then back down.",
+        "dose": "2 sets of 5–10"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Shoulder",
+        "difficulty": "Medium",
+        "movement": "Flexion"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=YpBeqqNqVYA",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "stair-climbing",
+      "en": {
+        "name": "Stair Climbing",
+        "detail": "Climb stairs at a steady pace using the rail. Walk down slowly.",
+        "dose": "3–5 flights"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "Full Body",
+        "difficulty": "High"
+      }
     }
   ]
 }
