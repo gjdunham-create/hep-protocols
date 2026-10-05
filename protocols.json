@@ -1289,6 +1289,162 @@
           "target": 8000
         }
       ]
+    },
+    {
+      "id": "prostate-during",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "during-treatment",
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                "seated-marching"
+              ],
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ]
+            ],
+            "startIndex": 2
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand-hands"
+              ],
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "push",
+            "label": "Wall Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ],
+              [
+                "push-up"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "bone-loading",
+            "label": "Heel Drops",
+            "chain": [
+              [
+                "heel-drops"
+              ],
+              [
+                "low-hops"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "pelvic-floor",
+            "label": "Pelvic Floor Squeeze — Lying",
+            "chain": [
+              [
+                "pfmt-lying"
+              ],
+              [
+                "pfmt-sitting"
+              ],
+              [
+                "pfmt-standing"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Prostate Cancer — During Treatment",
+        "population": "Men on hormone therapy (ADT), radiation, or awaiting surgery",
+        "duration": "30–40 min",
+        "frequency": "Strength 2–3 days/week; walk most days",
+        "blurb": "Strength, impact and walking to fight ADT fatigue and muscle and bone loss. Pelvic floor work prepares for surgery."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 5000
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "mood"
+        },
+        {
+          "type": "sleep"
+        }
+      ]
     }
   ]
 }
