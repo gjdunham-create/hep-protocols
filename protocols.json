@@ -1445,6 +1445,150 @@
           "type": "sleep"
         }
       ]
+    },
+    {
+      "id": "prostate-post",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "post-treatment",
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "pelvic-floor",
+            "label": "Pelvic Floor Squeeze — Lying",
+            "chain": [
+              [
+                "pfmt-lying"
+              ],
+              [
+                "pfmt-sitting"
+              ],
+              [
+                "pfmt-standing"
+              ],
+              [
+                "pfmt-knack"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "walk-intervals"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "push",
+            "label": "Counter Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ],
+              [
+                "push-up"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Prostate Cancer — Post-Treatment",
+        "population": "Men who have finished prostate cancer treatment",
+        "duration": "30–40 min",
+        "frequency": "Pelvic floor daily; strength 2–3 days/week",
+        "blurb": "Regain bladder control, rebuild strength, and keep fitness up for the long term."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 7000
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "bloodPressure",
+          "target": null
+        },
+        {
+          "type": "smoking",
+          "target": null
+        }
+      ]
     }
   ]
 }
