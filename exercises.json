@@ -6977,6 +6977,70 @@
       "videoUrl": "https://www.youtube.com/watch?v=qPd73snQfUs",
       "videoStartSeconds": 1,
       "videoEndSeconds": 11
+    },
+    {
+      "id": "diaphragmatic-breathing",
+      "en": {
+        "name": "Diaphragmatic Breathing",
+        "detail": "Hand on belly. Breathe in through your nose so your belly rises; breathe out slowly.",
+        "dose": "5–10 breaths, 3×/day"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Chest",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=6YB0pv3iv0g",
+      "videoStartSeconds": 2,
+      "videoEndSeconds": 12
+    },
+    {
+      "id": "pursed-lip-breathing",
+      "en": {
+        "name": "Pursed-Lip Breathing",
+        "detail": "In through your nose for 2, out through pursed lips for 4. Use it during activity.",
+        "dose": "5–10 breaths, as needed"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Chest",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=7kpJ0QlRss4",
+      "videoStartSeconds": 68,
+      "videoEndSeconds": 78
+    },
+    {
+      "id": "deep-breath-arm-raise",
+      "en": {
+        "name": "Deep Breath with Arm Raise",
+        "detail": "Breathe in as you raise your arms overhead; breathe out as you lower them.",
+        "dose": "2 sets of 8"
+      },
+      "meta": {
+        "goal": "Mobilizing",
+        "bodyPart": "Chest",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=FjJfKBJT36I",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "imt-device",
+      "en": {
+        "name": "Inspiratory Muscle Training",
+        "detail": "With your prescribed IMT device, breathe in hard and fast, out slowly. Your PT sets the resistance.",
+        "dose": "30 breaths, 2×/day"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Chest",
+        "difficulty": "High"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=Vai85r5ee7o",
+      "videoStartSeconds": 23,
+      "videoEndSeconds": 33
     }
   ]
 }
