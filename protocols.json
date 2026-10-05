@@ -1589,6 +1589,140 @@
           "target": null
         }
       ]
+    },
+    {
+      "id": "prostate-risk",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": null,
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "walk-intervals"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand"
+              ],
+              [
+                "sit-to-stand-weighted"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "push",
+            "label": "Counter Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ],
+              [
+                "push-up"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "hips",
+            "label": "Bridges",
+            "chain": [
+              [
+                "bridge"
+              ],
+              [
+                "bridge-march"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Prostate Cancer — Risk Reduction",
+        "population": "Men at elevated risk of prostate cancer",
+        "duration": "30 min",
+        "frequency": "5 days/week; strength 2–3 days",
+        "blurb": "Exercise helps you keep a healthy weight — excess body fat is linked to advanced prostate cancer. 150–250 min/week prevents weight gain; 250+ helps lose it."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 8000
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "smoking",
+          "target": null
+        }
+      ]
     }
   ]
 }
