@@ -7104,6 +7104,86 @@
         "bodyPart": "Full Body",
         "difficulty": "High"
       }
+    },
+    {
+      "id": "heel-drops",
+      "en": {
+        "name": "Heel Drops",
+        "detail": "Hold a counter. Rise onto your toes, then drop your heels firmly to the floor. Skip if you have bone metastases or osteoporosis — check with your PT.",
+        "dose": "2–3 sets of 10"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Lower Body",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=tZ8gy_V6bxM",
+      "videoStartSeconds": 14,
+      "videoEndSeconds": 24
+    },
+    {
+      "id": "low-hops",
+      "en": {
+        "name": "Low Hops",
+        "detail": "Small, quick two-foot hops in place beside a counter. Land softly. Skip if you have bone metastases or osteoporosis — check with your PT.",
+        "dose": "3 sets of 10"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Lower Body",
+        "difficulty": "High"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=W0nK_eBArXM",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "pfmt-lying",
+      "en": {
+        "name": "Pelvic Floor Squeeze — Lying",
+        "detail": "Knees bent. Squeeze and lift inward as if stopping urine and gas. Hold, then fully relax. Keep breathing.",
+        "dose": "10 × 5–10 sec holds, 3×/day"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Pelvic Floor",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=rG91-H4wrlY",
+      "videoStartSeconds": 3,
+      "videoEndSeconds": 13
+    },
+    {
+      "id": "pfmt-sitting",
+      "en": {
+        "name": "Pelvic Floor Squeeze — Sitting",
+        "detail": "Sit tall. Squeeze and lift, hold, fully relax. Don’t clench buttocks or hold your breath. Add 10 quick squeezes.",
+        "dose": "10 × 5–10 sec holds, 3×/day"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Pelvic Floor",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=uIG7et-H0wQ",
+      "videoStartSeconds": 7,
+      "videoEndSeconds": 17
+    },
+    {
+      "id": "pfmt-standing",
+      "en": {
+        "name": "Pelvic Floor Squeeze — Standing",
+        "detail": "Stand tall. Squeeze and lift, hold, fully relax. Add 10 quick squeezes.",
+        "dose": "10 × 5–10 sec holds, 3×/day"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Pelvic Floor",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=cJUlTNc9_Fs",
+      "videoStartSeconds": 7,
+      "videoEndSeconds": 17
     }
   ]
 }
