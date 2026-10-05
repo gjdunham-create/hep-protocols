@@ -6816,6 +6816,101 @@
       "videoUrl": "https://www.youtube.com/watch?v=GDTFPZFz960",
       "videoStartSeconds": 3,
       "videoEndSeconds": 13
+    },
+    {
+      "id": "walk-intervals",
+      "en": {
+        "name": "Interval Walking",
+        "detail": "Alternate 1 min brisk walking with 2 min easy. Brisk = you can talk but not sing.",
+        "dose": "20–30 min"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "Full Body",
+        "difficulty": "High"
+      }
+    },
+    {
+      "id": "sit-to-stand-weighted",
+      "en": {
+        "name": "Weighted Sit-to-Stand",
+        "detail": "Hold a weight at your chest. Stand briskly, lower over 3 seconds.",
+        "dose": "2–3 sets of 8–12"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Hip",
+        "difficulty": "High",
+        "movement": "Extensors"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=GHtPpJNKtBY",
+      "videoStartSeconds": 30,
+      "videoEndSeconds": 40
+    },
+    {
+      "id": "step-ups",
+      "en": {
+        "name": "Step-Ups",
+        "detail": "Step onto a stair, drive through the heel to stand tall, step down slowly. Use the rail.",
+        "dose": "2–3 sets of 10 / leg"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Knee",
+        "difficulty": "High",
+        "movement": "Extensors"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=0e11mnsdSp8",
+      "videoStartSeconds": 6,
+      "videoEndSeconds": 16
+    },
+    {
+      "id": "push-up",
+      "en": {
+        "name": "Push-Up",
+        "detail": "From toes or knees, body straight. Lower chest toward the floor, push up.",
+        "dose": "2–3 sets of 8–12"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Chest",
+        "difficulty": "High"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=WDIpL0pjun0",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "band-row",
+      "en": {
+        "name": "Band Row",
+        "detail": "Band anchored at chest height. Squeeze shoulder blades and pull elbows back; return slowly.",
+        "dose": "2–3 sets of 10–15"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Upper Back",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=_hnWc4kwVZg",
+      "videoStartSeconds": 4,
+      "videoEndSeconds": 14
+    },
+    {
+      "id": "dumbbell-row",
+      "en": {
+        "name": "One-Arm Dumbbell Row",
+        "detail": "Hand on a chair, back flat. Pull the weight to your hip, lower slowly.",
+        "dose": "2–3 sets of 8–12 / arm"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Upper Back",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=k_F8pIKoHD0",
+      "videoStartSeconds": 4,
+      "videoEndSeconds": 14
     }
   ]
 }
