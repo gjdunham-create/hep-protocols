@@ -891,6 +891,141 @@
           "type": "sleep"
         }
       ]
+    },
+    {
+      "id": "lung-during",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "during-treatment",
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "breathing",
+            "label": "Diaphragmatic Breathing",
+            "chain": [
+              [
+                "diaphragmatic-breathing"
+              ],
+              [
+                "pursed-lip-breathing"
+              ],
+              [
+                "deep-breath-arm-raise"
+              ],
+              [
+                "imt-device"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "aerobic",
+            "label": "Walking Medium Pace",
+            "chain": [
+              [
+                "seated-marching"
+              ],
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "walk-intervals"
+              ]
+            ],
+            "startIndex": 2
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand-hands"
+              ],
+              [
+                "sit-to-stand"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "push",
+            "label": "Wall Push-Up",
+            "chain": [
+              [
+                "wall-push-up"
+              ],
+              [
+                "counter-push-up"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Lung Cancer — During Treatment",
+        "population": "Adults awaiting lung surgery or in chemo/radiation",
+        "duration": "20–40 min",
+        "frequency": "Breathing daily; exercise most days",
+        "blurb": "Prehab and breathing training — linked to fewer complications and shorter hospital stays after lung surgery."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 5000
+        },
+        {
+          "type": "smoking",
+          "target": null
+        },
+        {
+          "type": "weight",
+          "target": null
+        },
+        {
+          "type": "mood"
+        },
+        {
+          "type": "sleep"
+        }
+      ]
     }
   ]
 }
