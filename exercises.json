@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-10-05",
   "exercises": [
     {
       "id": "glute-set",
@@ -6669,6 +6669,153 @@
         "bodyPart": "cardiovascular",
         "difficulty": "High"
       }
+    },
+    {
+      "id": "seated-marching",
+      "en": {
+        "name": "Seated Marching",
+        "detail": "Sit tall and march your knees up one at a time, pumping your arms.",
+        "dose": "3–5 min"
+      },
+      "meta": {
+        "goal": "Cardio",
+        "bodyPart": "Full Body",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=m1dU70p2fVQ",
+      "videoStartSeconds": 1,
+      "videoEndSeconds": 11
+    },
+    {
+      "id": "breathing-core",
+      "en": {
+        "name": "Belly Breathing with Core Set",
+        "detail": "Lying, knees bent. Breathe into your belly; as you exhale, gently draw your lower tummy in.",
+        "dose": "10 breaths"
+      },
+      "meta": {
+        "goal": "Stabilizing",
+        "bodyPart": "Core",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=Q1Me3bMx5Dc",
+      "videoStartSeconds": 6,
+      "videoEndSeconds": 16
+    },
+    {
+      "id": "heel-slides-core",
+      "en": {
+        "name": "Heel Slides with Core Set",
+        "detail": "Gently draw your tummy in. Slide one heel out and back without your back arching.",
+        "dose": "2 sets of 10 / leg"
+      },
+      "meta": {
+        "goal": "Stabilizing",
+        "bodyPart": "Core",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=BL68tDXi430",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "toe-taps-supine",
+      "en": {
+        "name": "Tabletop Toe Taps",
+        "detail": "Knees up at 90°, tummy gently drawn in. Lower and tap one toe to the floor at a time.",
+        "dose": "2 sets of 8 / leg"
+      },
+      "meta": {
+        "goal": "Stabilizing",
+        "bodyPart": "Core",
+        "difficulty": "High"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=ALFOmuy1uqE",
+      "videoStartSeconds": 0,
+      "videoEndSeconds": 10
+    },
+    {
+      "id": "sit-to-stand-hands",
+      "en": {
+        "name": "Sit-to-Stand with Arm Push",
+        "detail": "Scoot forward, feet back. Push up from the chair arms to stand, then sit slowly.",
+        "dose": "2 sets of 8–10"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Hip",
+        "difficulty": "Low",
+        "movement": "Extensors"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=tpQvpRGQR88",
+      "videoStartSeconds": 22,
+      "videoEndSeconds": 32
+    },
+    {
+      "id": "sit-to-stand",
+      "en": {
+        "name": "Sit-to-Stand",
+        "detail": "Arms crossed. Lean forward and stand tall, then lower slowly without plopping.",
+        "dose": "2–3 sets of 10–12"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Hip",
+        "difficulty": "Medium",
+        "movement": "Extensors"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=qveKmiXEkIQ",
+      "videoStartSeconds": 12,
+      "videoEndSeconds": 22
+    },
+    {
+      "id": "bridge-march",
+      "en": {
+        "name": "Marching Bridge",
+        "detail": "Hold a bridge and lift one foot at a time without letting your hips drop.",
+        "dose": "2 sets of 8 / side"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Hip",
+        "difficulty": "Medium",
+        "movement": "Extensors"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=nXd6rZDHC98",
+      "videoStartSeconds": 9,
+      "videoEndSeconds": 19
+    },
+    {
+      "id": "wall-push-up",
+      "en": {
+        "name": "Wall Push-Up",
+        "detail": "Hands on the wall at shoulder height. Bend elbows to bring chest toward the wall, push back.",
+        "dose": "2 sets of 10–15"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Chest",
+        "difficulty": "Low"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=wIPJvBQs7RA",
+      "videoStartSeconds": 12,
+      "videoEndSeconds": 22
+    },
+    {
+      "id": "counter-push-up",
+      "en": {
+        "name": "Counter Push-Up",
+        "detail": "Hands on a sturdy counter, body straight. Lower chest to the edge, push back.",
+        "dose": "2–3 sets of 8–12"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Chest",
+        "difficulty": "Medium"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=GDTFPZFz960",
+      "videoStartSeconds": 3,
+      "videoEndSeconds": 13
     }
   ]
 }
