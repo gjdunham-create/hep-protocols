@@ -7184,6 +7184,22 @@
       "videoUrl": "https://www.youtube.com/watch?v=cJUlTNc9_Fs",
       "videoStartSeconds": 7,
       "videoEndSeconds": 17
+    },
+    {
+      "id": "pfmt-knack",
+      "en": {
+        "name": "The Knack",
+        "detail": "Squeeze your pelvic floor just before you cough, sneeze, lift, or stand up. Hold until done.",
+        "dose": "Every time, all day"
+      },
+      "meta": {
+        "goal": "Strengthening",
+        "bodyPart": "Pelvic Floor",
+        "difficulty": "High"
+      },
+      "videoUrl": "https://www.youtube.com/watch?v=JZ8mTaV_M10",
+      "videoStartSeconds": 14,
+      "videoEndSeconds": 24
     }
   ]
 }
