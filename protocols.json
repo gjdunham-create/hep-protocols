@@ -1026,6 +1026,152 @@
           "type": "sleep"
         }
       ]
+    },
+    {
+      "id": "lung-post",
+      "tag": "#1F5C6E",
+      "icon": "ribbon",
+      "category": "cancer",
+      "phase": "post-treatment",
+      "exerciseGrid": {
+        "rows": [
+          {
+            "id": "breathing",
+            "label": "Diaphragmatic Breathing",
+            "chain": [
+              [
+                "diaphragmatic-breathing"
+              ],
+              [
+                "deep-breath-arm-raise"
+              ],
+              [
+                "imt-device"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "airway-clearance",
+            "label": "Huff Cough",
+            "chain": [
+              [
+                "huff-cough"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "shoulder",
+            "label": "Wand Shoulder Raise",
+            "chain": [
+              [
+                "wand-flexion"
+              ],
+              [
+                "wall-walk"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "aerobic",
+            "label": "Walking Easy Pace",
+            "chain": [
+              [
+                {
+                  "id": "walk-easy",
+                  "override": {
+                    "en": {
+                      "detail": "Comfortable pace. Rest as needed.",
+                      "dose": "10–15 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "medium-walk",
+                  "override": {
+                    "en": {
+                      "detail": "Pace that raises your breathing a little — you can still talk.",
+                      "dose": "20–30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "walk-brisk",
+                  "override": {
+                    "en": {
+                      "detail": "Brisk pace — you can talk but not sing.",
+                      "dose": "30 min"
+                    }
+                  }
+                }
+              ],
+              [
+                "stair-climbing"
+              ]
+            ],
+            "startIndex": 0
+          },
+          {
+            "id": "legs",
+            "label": "Sit-to-Stand",
+            "chain": [
+              [
+                "sit-to-stand-hands"
+              ],
+              [
+                "sit-to-stand"
+              ],
+              [
+                "step-ups"
+              ]
+            ],
+            "startIndex": 1
+          },
+          {
+            "id": "pull",
+            "label": "Band Row",
+            "chain": [
+              [
+                "band-row"
+              ],
+              [
+                "dumbbell-row"
+              ]
+            ],
+            "startIndex": 0
+          }
+        ]
+      },
+      "en": {
+        "name": "Lung Cancer — Post-Treatment",
+        "population": "Adults recovering from lung cancer surgery or treatment",
+        "duration": "20–40 min",
+        "frequency": "Breathing daily; exercise most days",
+        "blurb": "Restore breathing, shoulder motion and endurance. Build your walking up a little each week."
+      },
+      "riskFactors": [
+        {
+          "type": "activity",
+          "metric": "steps",
+          "target": 6000
+        },
+        {
+          "type": "smoking",
+          "target": null
+        },
+        {
+          "type": "mood"
+        },
+        {
+          "type": "sleep"
+        }
+      ]
     }
   ]
 }
